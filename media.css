@@ -1,0 +1,71 @@
+/*RESPONSIVIDADE DO PORTFOLIO*/
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsivo{
+        display: block;
+    }
+    nav.responsivo{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsivo ul{
+        display: block !important;
+    }
+    nav.responsivo ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+
+/*Nova section de responsividade*/
+@media screen and (max-width:700px){
+    .sobremim .linha{
+        display: block;
+    }
+    .sobremim .linha .col{
+        width: fit-content;
+    }
+
+    .skills .linha{
+        display: block;
+    }
+    .skills .linha .col{
+        width: 100%;
+    }
+    .skills .linha .col .barra-skill{
+        width: 100%;
+    }
+
+    .curriculum .linha{
+        display: block;
+    }
+    .curriculum .linha .col{
+        width: 90%;
+    }
+    .curriculum .linha .direita{
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .projeto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .projeto img{
+        width: 100%;
+    }
+    .contato .linha{
+        display: block;
+    }
+    .contato .linha .col{
+        width: 100%;
+    }
+}
